@@ -1,0 +1,20 @@
+{
+  "name": "youtubevideouploadproj",
+  "version": "1.0.0",
+  "description": "uploading videos using youtube api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "@Danish",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3",
+    "open": "^7.0.3",
+    "uuid": "^8.0.0",
+    "youtube-api": "^2.0.10"
+  }
+}
